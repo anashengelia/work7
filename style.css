@@ -119,3 +119,20 @@
     font-weight: 400;
     font-size: 20px;
 }
+/* section end */
+/* section2 */
+/* .section2_top{ */
+    position: absolute;
+    width: 70%;
+    height: 88px;
+   right: 15%;
+    top: 1455px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 75px;
+    font-family: 'Work Sans', sans-serif;
+}
+.div{
+    display: flex;
+    justify-content: space-between;
+}
