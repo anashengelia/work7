@@ -1,0 +1,43 @@
+.conteiner{
+    max-width: 1920px;
+    width: 100%;
+    margin: auto;
+}
+/* header class */
+.cover {
+    max-width: 1920px;
+    width: 100%;
+    margin: auto;
+    padding-top: 53px;
+    padding-bottom: 49px;
+    padding-left: 320px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    max-width: inherit;
+    width: inherit;
+
+
+}
+.pages {
+    display: flex;
+    gap: 68px;
+}
+
+.style {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+   
+}
+.icone{
+    padding-left: 327px;
+    padding-right: 760px;
+    color: white;
+}
+/* header end */
