@@ -64,8 +64,10 @@
 
 
 .photo {
+
     width: 100%;
     height: 1080px;
+
 
 }
 
@@ -111,28 +113,152 @@
     display: flex;
     justify-content: space-between;
     align-items: centre;
-    gap:248px;
+    gap: 248px;
 
 
 }
-.searchtext{
+
+.searchtext {
     font-weight: 400;
     font-size: 20px;
 }
+
 /* section end */
-/* section2 */
-/* .section2_top{ */
-    position: absolute;
+
+/* section2 starts */
+
+.section2 {
+    max-width: 1920px;
     width: 70%;
-    height: 88px;
-   right: 15%;
+    height: 1047px;
+    margin: auto;
+    /* max-width: 1920px; */
+
+}
+
+.section2_top {
+    position: absolute;
     top: 1455px;
+    width: 734px;
+    height: 88px;
+    left: 320px;
+    right: 320px;
     font-style: normal;
     font-weight: 600;
     font-size: 75px;
+    line-height: 88px;
     font-family: 'Work Sans', sans-serif;
 }
-.div{
+
+.div {
+    display: flex;
+    /* justify-content: space-between; */
+    position: absolute;
+    top: 1645px;
+    gap: 60px;
+    left: 320px;
+}
+
+.section2_div {
+    max-width: 390px;
+    width: 70%px;
+    height: 388px;
+    box-sizing: border-box;
+    border: 2px solid #DCB47A;
+}
+
+divphoto {
+    width: 70%;
+    height: 225px;
+    margin-left: 41px;
+    position: absolute;
+}
+
+.divtext {
+
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-top: 54px;
+    margin-left: 41px;
+    font-family: 'Inter', sans-serif;
+}
+
+.divtext2 {
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    margin-top: 17px;
+    margin-left: 41px;
+
+}
+
+.footer_cover {
+    max-width: 1920px;
+    width: 100%;
+    margin: auto;
+    height: 378px;
+    background-color: black;
+}
+
+
+.footer_h {
+    position: absolute;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 70px;
+    font-family: 'Work Sans', sans-serif;
+    left: 630px;
+    right: 629px;
+    margin-top: 60px;
+    color: white;
+
+}
+
+.footer_p {
+    position: absolute;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 130%;
+    left: 630px;
+    right: 629px;
+    margin-top: 130px;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+
+
+}
+
+.footer_button {
+    position: absolute;
+    background-color: #DCB47A;
+    border-radius: 60px;
+    width: 200px;
+    height: 64px;
+    left: 650px;
+    right: 650px;
+    top: 2511px;
+    
+}
+.button_text{
+position: absolute;
+width: 79px;
+height: 19px;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 120%; 
+text-align: center;
+font-family: 'Work Sans', sans-serif;
+
+
 }
