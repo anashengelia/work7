@@ -1,6 +1,6 @@
 .conteiner {
     max-width: 1920px;
-    height: 100%;
+    /* height: 100%; */
     width: 100%;
     margin: auto;
 
@@ -8,31 +8,38 @@
 
 
 /* header class */
-.cover {
+header{
     max-width: 1920px;
-    width: 100%;
+    width:inherit;
     margin: auto;
-    padding-top: 53px;
-    padding-bottom: 49px;
-    padding-left: 320px;
+    padding: 46px 320px;
     background-color: black;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     position: fixed;
-    max-width: inherit;
-    width: inherit;
-    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+
+
+    
+    
+    
     /* relative რომ ვუხსნი header  ქრება ,არადა ამით არ fixed ება ,რა შემეშალა? */
 
 
 
 }
 
-.pages {
-    display: flex;
-    gap: 68px;
-}
+.icone{
+    padding-left: 327px;
+    padding-right: 760px;
+    color: white;
 
+
+}
 .style {
     font-family: 'Work Sans', sans-serif;
     font-style: normal;
@@ -41,6 +48,7 @@
     line-height: 28px;
     text-align: center;
     transform: translateX(-50%);
+    
 
 }
 
@@ -54,9 +62,9 @@
 
 /* section starting */
 .section1 {
-    width: 100%;
-    height: 100%;
+    height:1080px ;
     position: relative;
+    top: 111px;
 
 }
 
@@ -66,9 +74,21 @@
 .photo {
 
     width: 100%;
-    height: 1080px;
+    height: 100%;
 
 
+}
+.search{
+
+
+width: 463px;
+height: 50px;
+background-color: rgba(245, 245, 220, 0.5);
+position: absolute;
+color: white;
+top: 649px;
+left: 50%;
+transform: translateX(-50%);
 }
 
 .box_text {
@@ -247,6 +267,7 @@ divphoto {
     left: 650px;
     right: 650px;
     top: 2511px;
+  
     
 }
 .button_text{
@@ -259,6 +280,7 @@ font-size: 16px;
 line-height: 120%; 
 text-align: center;
 font-family: 'Work Sans', sans-serif;
+
 
 
 }
